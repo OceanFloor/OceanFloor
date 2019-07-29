@@ -1,0 +1,12 @@
+{
+  "name": "Pic to Vid",
+  "description": "",
+  "color": "ABCDEF",
+  "magic": "-loop 1 -i '{pic_source}' -map 0:a:0 -map 1:v:0 -c:a copy -c:v copy",
+  "controls": [{
+    "name": "Pic Source",
+    "magic_name": "pic_source",
+    "description": "Where to take the picture from.",
+    "type": "FileProperty"
+  }]
+}

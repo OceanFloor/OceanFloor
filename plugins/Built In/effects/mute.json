@@ -1,0 +1,7 @@
+{
+  "name": "Mute",
+  "description": "Mute the video.",
+  "color": "228CDB",
+  "magic": "-c copy -an",
+  "controls": []
+}

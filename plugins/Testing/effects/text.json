@@ -1,0 +1,42 @@
+{
+  "name": "Text",
+  "description": "Render text on the video.",
+  "color": "FED766",
+  "magic": "-vf \"drawtext=fontfile='C\\\\:\\\\\\\\Windows\\\\\\\\Fonts\\\\\\\\{font_file}': fontcolor='0x{font_color}': fontsize={font_size}: text='{input_text}': x={x}: y={y}\" -c:a copy",
+  "controls": [{
+    "name": "Text",
+    "magic_name": "input_text",
+    "description": "The text to render.",
+    "type": "StringProperty"
+  },
+  {
+    "name": "Font File",
+    "magic_name": "font_file",
+    "description": "Font file of the text to render.",
+    "type": "FontProperty"
+  },
+  {
+    "name": "Size",
+    "magic_name": "font_size",
+    "description": "Size of the text to render.",
+    "type": "UIntProperty"
+  },
+  {
+    "name": "Colour",
+    "magic_name": "font_color",
+    "description": "Colour of the text to render.",
+    "type": "RGBColourProperty"
+  },
+  {
+    "name": "X Position",
+    "magic_name": "x",
+    "description": "X Position of the text on the video.",
+    "type": "IntProperty"
+  },
+  {
+    "name": "Y Position",
+    "magic_name": "y",
+    "description": "Y Position of the text on the video.",
+    "type": "IntProperty"
+  }]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Reverse",
+  "description": "Reverse the video.",
+  "color": "FD5E8A",
+  "magic": "-vf reverse",
+  "controls": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Change Volume",
+  "description": "Change the volume of the video.",
+  "color": "AB9DF4",
+  "magic": "-af \"volume={volume_multiplier}\"",
+  "controls": [{
+    "name": "Volume Multiplier",
+    "magic_name": "volume_multiplier",
+    "description": "Volume in relation to the original video.",
+    "type": "FloatProperty"
+  }]
+}

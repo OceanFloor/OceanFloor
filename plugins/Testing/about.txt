@@ -1,0 +1,2 @@
+This is OceanFloor's built in effects plugin.
+Read the docs for information on how to make your own plugins!

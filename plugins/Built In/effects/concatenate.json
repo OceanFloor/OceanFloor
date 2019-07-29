@@ -1,0 +1,12 @@
+{
+  "name": "Concatenate",
+  "description": "Connect another video to the end of the video.",
+  "color": "8DD68D",
+  "magic": "-i \"{other_video}\" -filter_complex \"[0:v:0] [0:a:0] [1:v:0] [1:a:0] concat=2:v=1:a=1 [v] [a]\" -map \"[v]\" -map \"[a]\"",
+  "controls": [{
+    "name": "Other Video",
+    "magic_name": "other_video",
+    "description": "The video to connect.",
+    "type": "FileProperty"
+  }]
+}

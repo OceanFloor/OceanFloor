@@ -1,0 +1,12 @@
+{
+  "name": "Change Speed",
+  "description": "Speed the video up to 200% of the original.",
+  "color": "55DDE0",
+  "magic": "-filter_complex \"[0:v]setpts=PTS/{speed_multiplier}[v];[0:a]atempo={speed_multiplier}[a]\" -map \"[v]\" -map \"[a]\"",
+  "controls": [{
+    "name": "Speed Multiplier",
+    "magic_name": "speed_multiplier",
+    "description": "Speed in relation to the original video (0.5 - 2.0).",
+    "type": "FloatProperty"
+  }]
+}

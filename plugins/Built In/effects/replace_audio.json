@@ -1,0 +1,12 @@
+{
+  "name": "Replace Audio",
+  "description": "Replace the audio stream.",
+  "color": "F6AE2D",
+  "magic": "-i '{audio_source}' -c:v copy -map 0:v:0 -map 1:a:0 -shortest",
+  "controls": [{
+    "name": "Audio Source",
+    "magic_name": "audio_source",
+    "description": "Where to take the audio from.",
+    "type": "FileProperty"
+  }]
+}

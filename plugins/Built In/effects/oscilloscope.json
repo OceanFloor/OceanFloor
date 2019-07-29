@@ -1,0 +1,8 @@
+{
+  "name": "Oscilloscope",
+  "description": "Show an oscilloscope on the video.",
+  "color": "F6CF5D",
+  "magic": "-vf oscilloscope",
+  "controls": []
+}
+  
