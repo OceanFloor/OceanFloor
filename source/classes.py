@@ -11,29 +11,6 @@ from . import constants, environment, utils
 from .errors import ErrorMessage, OceanFloorError
 
 
-'''
-# TODO LIST
-[ ] CLEAR ALL BUTTON
-[ ] CHANGE MOVE, EDIT ETC IN THE ORM TO USE ORIGINAL QUERIES INSTEAD OF EXISTING ONCE (INSERT, REMOVE)
-[ ] SHOW OPEN FILE NAME IN TITLE BAR
-[ ] DRAG-N-DROP EFFECTS FROM THE PLUGINS TREE TO THE TIMELINE TO ADD THEM
-[ ] CREATE CUSTOM PROPERTY CLASSES FOR THE PROPERTY GRID
-    [ ] LocationProperty THAT TRANSLATES "TOP-RIGHT" TO X, Y IN THE FFMPEG FORMAT (h/2 OR WHATEVER IT WAS)
-[ ] NOT URGENT - GITHUB, DOCS AND PRETTIFYING
-    [ ] SUPPORT FOR DIFFERENT TYPES OF THE SAME EFFECT
-    [ ] PUT THE UGLY LIST OF PROPERTY CLASSES SOMEWHERE ELSE
-    [ ] CREATE INSERT BEFORE / INSERT AFTER BUTTONS?
-    [ ] MERGE WITH THE OCEANFLOOR FOLDER (DOCS)
-    [ ] PUSH EVERYTHING TO GITHUB
-    [ ] DOCUMENT EVERY FUNCTION, METHOD AND CLASS (IN CODE)
-    [ ] UPDATE THE ALREADY LONG-BEHIND DOCUMENTATION PAGES (MARKDOWN)
-    [ ] TRY USING PYAN3 TO GENERATE A DIAGRAM OF CALLS
-    [ ] TRY USING INNO SETUP https://fernandofreitasalves.com/how-to-create-an-msi-installer-using-inno-setup/
-    [ ] CHECK UPLOAD ERRORS https://developers.google.com/youtube/v3/docs/errors
-    [ ] SPECIAL AUDIO EFFECTS
-'''
-
-
 class MenuItem(wx.MenuItem):
     """A subclass of `wx.MenuItem` that adds an option to specify a bitmap filename in the constructor.
     """
