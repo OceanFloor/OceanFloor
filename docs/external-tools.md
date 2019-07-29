@@ -53,6 +53,6 @@ Uploading videos to users' YouTube channels from within OceanFloor, after render
 
 ---
 
-**[Back to the Documentation](../documentation.md)**
+**[Back to the Documentation](documentation.md)**
 
 **[Back to the README](../readme.md)**

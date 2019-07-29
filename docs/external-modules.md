@@ -45,6 +45,6 @@ OceanFloor's graphical user interface.
 
 ---
 
-**[Back to the Documentation](../documentation.md)**
+**[Back to the Documentation](documentation.md)**
 
 **[Back to the README](../readme.md)**

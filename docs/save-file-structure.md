@@ -153,6 +153,6 @@ UPDATE added_effects SET effect_ordering = effect_ordering - 1 WHERE effect_orde
 
 --------------------------------------------------------------------------------
 
-**[Back to the Documentation](../documentation.md)**
+**[Back to the Documentation](documentation.md)**
 
 **[Back to the README](../readme.md)**

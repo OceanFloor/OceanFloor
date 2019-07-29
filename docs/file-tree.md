@@ -37,6 +37,6 @@ oceanfloor\                          // Root path
 
 --------------------------------------------------------------------------------
 
-**[Back to the Documentation](../documentation.md)**
+**[Back to the Documentation](documentation.md)**
 
 **[Back to the README](../readme.md)**

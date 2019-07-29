@@ -14,6 +14,6 @@ Interaction with the user in order to get that information is achieved through a
 
 ---
 
-**[Back to the Documentation](../documentation.md)**
+**[Back to the Documentation](documentation.md)**
 
 **[Back to the README](../readme.md)**

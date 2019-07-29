@@ -17,4 +17,4 @@ If you're interested in this project and want to contribute to its development, 
 
 ## Documentation
 
-Read the [docs](./documentation.md) for a behind-the-scenes of OceanFloor.
+Read the [docs](docs/documentation.md) for a behind-the-scenes of OceanFloor.

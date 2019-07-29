@@ -203,6 +203,6 @@ That's it! you now have a fully functional plugin. To share it, simply give the 
 
 ---
 
-**[Back to the Documentation](../documentation.md)**
+**[Back to the Documentation](documentation.md)**
 
 **[Back to the README](../readme.md)**
